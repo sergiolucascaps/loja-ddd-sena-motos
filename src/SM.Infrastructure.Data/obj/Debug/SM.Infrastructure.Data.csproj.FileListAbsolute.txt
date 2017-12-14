@@ -1,0 +1,42 @@
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.Infrastructure.Data\bin\Debug\SM.Infrastructure.Data.dll.config
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.Infrastructure.Data\bin\Debug\SM.Infrastructure.Data.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.Infrastructure.Data\bin\Debug\SM.Infrastructure.Data.pdb
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.Infrastructure.Data\bin\Debug\EntityFramework.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.Infrastructure.Data\bin\Debug\SM.Domain.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.Infrastructure.Data\bin\Debug\SM.Domain.pdb
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.Infrastructure.Data\bin\Debug\EntityFramework.xml
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.Infrastructure.Data\obj\Debug\SM.Infrastructure.Data.csprojResolveAssemblyReference.cache
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.Infrastructure.Data\obj\Debug\SM.Infrastructure.Data.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.Infrastructure.Data\obj\Debug\SM.Infrastructure.Data.pdb
+C:\Projetos\SenaMotos\src\SM.Infrastructure.Data\bin\Debug\SM.Infrastructure.Data.dll.config
+C:\Projetos\SenaMotos\src\SM.Infrastructure.Data\bin\Debug\SM.Infrastructure.Data.dll
+C:\Projetos\SenaMotos\src\SM.Infrastructure.Data\bin\Debug\SM.Infrastructure.Data.pdb
+C:\Projetos\SenaMotos\src\SM.Infrastructure.Data\bin\Debug\Dapper.dll
+C:\Projetos\SenaMotos\src\SM.Infrastructure.Data\bin\Debug\EntityFramework.dll
+C:\Projetos\SenaMotos\src\SM.Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projetos\SenaMotos\src\SM.Infrastructure.Data\bin\Debug\SM.Domain.dll
+C:\Projetos\SenaMotos\src\SM.Infrastructure.Data\bin\Debug\SM.Domain.pdb
+C:\Projetos\SenaMotos\src\SM.Infrastructure.Data\bin\Debug\Dapper.xml
+C:\Projetos\SenaMotos\src\SM.Infrastructure.Data\bin\Debug\EntityFramework.xml
+C:\Projetos\SenaMotos\src\SM.Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projetos\SenaMotos\src\SM.Infrastructure.Data\obj\Debug\SM.Infrastructure.Data.csprojResolveAssemblyReference.cache
+C:\Projetos\SenaMotos\src\SM.Infrastructure.Data\obj\Debug\SM.Infrastructure.Data.dll
+C:\Projetos\SenaMotos\src\SM.Infrastructure.Data\obj\Debug\SM.Infrastructure.Data.pdb
+C:\Projetos\SenaMotos\src\SM.Infrastructure.Data\obj\Debug\SM.Infrastructure.Data.csproj.CoreCompileInputs.cache
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\bin\Debug\SM.Infrastructure.Data.dll.config
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\bin\Debug\SM.Infrastructure.Data.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\bin\Debug\SM.Infrastructure.Data.pdb
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\bin\Debug\Dapper.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\bin\Debug\EntityFramework.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\bin\Debug\SM.Domain.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\bin\Debug\SM.Domain.pdb
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\bin\Debug\Dapper.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\bin\Debug\EntityFramework.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\obj\Debug\SM.Infrastructure.Data.csprojResolveAssemblyReference.cache
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\obj\Debug\SM.Infrastructure.Data.csproj.CoreCompileInputs.cache
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\obj\Debug\SM.Infrastructure.Data.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\obj\Debug\SM.Infrastructure.Data.pdb

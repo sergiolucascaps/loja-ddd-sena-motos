@@ -1,0 +1,35 @@
+﻿@model IEnumerable<SM.Application.ViewModels.UsuarioViewModel>
+
+@{
+    ViewBag.Title = "Usuários";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p>
+    @Html.ActionLink("Cadastrar usuário", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th> @Html.DisplayNameFor(model => model.Nme_Usuario) </th>
+        <th> @Html.DisplayNameFor(model => model.Num_Cpf) </th>
+        <th> @Html.DisplayNameFor(model => model.Eml_Usuario) </th>
+        <th> @Html.DisplayNameFor(model => model.Dta_Nascimento) </th>
+        <th>Ações</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td> @Html.DisplayFor(modelItem => item.Nme_Usuario) </td>
+            <td> @Html.DisplayFor(modelItem => item.Num_Cpf) </td>
+            <td> @Html.DisplayFor(modelItem => item.Eml_Usuario) </td>
+            <td> @Html.DisplayFor(modelItem => item.Dta_Nascimento) </td>
+            <td>
+                @Html.ActionLink(" ", "Edit", new { id = item.Idf_Usuario }, new { @class = "btn btn-primary btn-xs glyphicon glyphicon-pencil" })
+                <button type="button" id=@item.Idf_Usuario class="btn btn-info btn-xs glyphicon glyphicon-search" onclick="buscaDados(this);" formaction="Usuarios/Details" formmethod="post"> </button>
+                <button type="button" id=@item.Idf_Usuario class="btn btn-danger btn-xs glyphicon glyphicon-remove" onclick="buscaDados(this);" formaction="Usuarios/Delete" formmethod="post" > </button>
+            </td>
+        </tr>
+    }
+
+</table>

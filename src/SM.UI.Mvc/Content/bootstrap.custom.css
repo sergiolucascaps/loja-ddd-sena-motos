@@ -1,0 +1,67 @@
+﻿body {
+}
+
+/*Cor da Navbar*/
+.navbar-inverse
+{
+    /*background-color: #eee;*/
+    /*background-color: #337ab7;*/
+    background-color: #f6f6f6;
+    border-color: rgba(8, 8, 8, 0.21);
+}
+
+/*Titulo Navbar*/
+.navbar-inverse .navbar-brand 
+{
+    color: #716d6d;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus 
+{
+    /*color: #646060;*/
+    color: #575353;
+}
+
+/*Outros textos menus Navbar*/
+.navbar .brand, .navbar .nav > li > a 
+{
+    color: #716d6d;
+}
+
+/*Background dos outros menus Navbar quando com o Mouse sobre*/
+.navbar .brand, .navbar .nav > li > a:hover 
+{
+    color: #575353;
+    background-color: #e5e4e4;
+}
+
+/*Bordas do menu Toggle*/
+.navbar-inverse .navbar-toggle 
+{
+    border-color: rgba(8, 8, 8, 0.21);
+}
+
+/*Background do menu toggle quando com o mouse sobre*/
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus 
+{
+    background-color: #d1cfcf;
+}
+
+/*Listras de dentro do menú toggle*/
+.navbar-inverse .navbar-toggle .icon-bar 
+{
+    background-color: #716d6d;
+}
+
+/*Linha de separação do menú toggle quando aberto*/
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form 
+{
+    border-color: rgba(8, 8, 8, 0.21);
+}
+
+/*Background color do rodapé*/
+.navbar-fixed-bottom 
+{
+    background-color: #e4e1e1;
+    border-color: rgba(8, 8, 8, 0.21);
+}

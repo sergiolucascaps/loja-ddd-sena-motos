@@ -1,0 +1,192 @@
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\SM.UI.Mvc.dll.config
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\SM.UI.Mvc.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\SM.UI.Mvc.pdb
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Antlr3.Runtime.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\EntityFramework.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\EntityFramework.SqlServer.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Newtonsoft.Json.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Owin.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\System.Web.Helpers.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\System.Web.Mvc.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\System.Web.Optimization.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\System.Web.Razor.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\System.Web.WebPages.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\System.Web.WebPages.Razor.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\WebGrease.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\System.Web.Helpers.xml
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\System.Web.Mvc.xml
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\System.Web.Optimization.xml
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\System.Web.Razor.xml
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\System.Web.WebPages.xml
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\System.Web.WebPages.Razor.xml
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Antlr3.Runtime.pdb
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Newtonsoft.Json.xml
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\EntityFramework.xml
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\EntityFramework.SqlServer.xml
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.xml
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.xml
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\obj\Debug\SM.UI.Mvc.dll
+C:\Users\sergiolucas\Documents\Visual Studio 2013\Projects\SenaMotos\src\SM.UI.Mvc\obj\Debug\SM.UI.Mvc.pdb
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\SM.UI.Mvc.dll.config
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\SM.UI.Mvc.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\SM.UI.Mvc.pdb
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Antlr3.Runtime.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\EntityFramework.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\EntityFramework.SqlServer.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.Google.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Newtonsoft.Json.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Owin.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\SM.Application.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\SM.Infrastructure.CrossCutting.MvcFilters.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\System.Web.Helpers.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\System.Web.Mvc.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\System.Web.Optimization.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\System.Web.Razor.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\System.Web.WebPages.Deployment.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\System.Web.WebPages.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\System.Web.WebPages.Razor.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\WebGrease.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\SM.Infrastructure.Data.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\SM.Domain.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\AutoMapper.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Dapper.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\SM.Application.pdb
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\SM.Infrastructure.CrossCutting.MvcFilters.pdb
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Antlr3.Runtime.pdb
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.xml
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.xml
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.Google.xml
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Newtonsoft.Json.xml
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\System.Web.Helpers.xml
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\System.Web.Mvc.xml
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\System.Web.Optimization.xml
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\System.Web.Razor.xml
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\System.Web.WebPages.xml
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\System.Web.WebPages.Deployment.xml
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\System.Web.WebPages.Razor.xml
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\EntityFramework.xml
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\EntityFramework.SqlServer.xml
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\SM.Infrastructure.Data.pdb
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\SM.Infrastructure.Data.dll.config
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\SM.Domain.pdb
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\AutoMapper.xml
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\bin\Dapper.xml
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\obj\Debug\SM.UI.Mvc.csprojResolveAssemblyReference.cache
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\obj\Debug\SM.UI.Mvc.dll
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\obj\Debug\SM.UI.Mvc.pdb
+C:\Projetos\SenaMotos\src\SM.UI.Mvc\obj\Debug\SM.UI.Mvc.csproj.CoreCompileInputs.cache
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\SM.UI.Mvc.dll.config
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\SM.UI.Mvc.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\SM.UI.Mvc.pdb
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Antlr3.Runtime.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\EntityFramework.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\EntityFramework.SqlServer.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.Owin.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.Google.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Newtonsoft.Json.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Owin.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\SM.Application.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\SM.Infrastructure.CrossCutting.MvcFilters.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\System.Web.Helpers.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\System.Web.Mvc.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\System.Web.Optimization.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\System.Web.Razor.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\System.Web.WebPages.Deployment.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\System.Web.WebPages.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\System.Web.WebPages.Razor.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\WebGrease.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\SM.Infrastructure.Data.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\SM.Domain.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\AutoMapper.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Dapper.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\SM.Application.pdb
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\SM.Infrastructure.CrossCutting.MvcFilters.pdb
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Antlr3.Runtime.pdb
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.Owin.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.Google.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Newtonsoft.Json.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\System.Web.Helpers.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\System.Web.Mvc.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\System.Web.Optimization.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\System.Web.Razor.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\System.Web.WebPages.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\System.Web.WebPages.Deployment.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\System.Web.WebPages.Razor.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\EntityFramework.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\EntityFramework.SqlServer.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\SM.Infrastructure.Data.pdb
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\SM.Infrastructure.Data.dll.config
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\SM.Domain.pdb
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\AutoMapper.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\bin\Dapper.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\obj\Debug\SM.UI.Mvc.csprojResolveAssemblyReference.cache
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\obj\Debug\SM.UI.Mvc.csproj.CoreCompileInputs.cache
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\obj\Debug\SM.UI.Mvc.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.UI.Mvc\obj\Debug\SM.UI.Mvc.pdb

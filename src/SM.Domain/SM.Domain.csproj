@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{696C7F83-5BB9-4678-B86F-18034BC5786F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SM.Domain</RootNamespace>
+    <AssemblyName>SM.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\Anuncio.cs" />
+    <Compile Include="Entities\Categoria.cs" />
+    <Compile Include="Entities\Contato.cs" />
+    <Compile Include="Entities\Endereco.cs" />
+    <Compile Include="Entities\Entrega.cs" />
+    <Compile Include="Entities\Negociacao.cs" />
+    <Compile Include="Entities\Chat.cs" />
+    <Compile Include="Entities\Produto.cs" />
+    <Compile Include="Entities\ProdutoImagem.cs" />
+    <Compile Include="Entities\StatusEntrega.cs" />
+    <Compile Include="Entities\EntregaHistorico.cs" />
+    <Compile Include="Entities\StatusNegociacao.cs" />
+    <Compile Include="Entities\StatusVenda.cs" />
+    <Compile Include="Entities\Telefone.cs" />
+    <Compile Include="Entities\Usuario.cs" />
+    <Compile Include="Entities\UsuarioImagem.cs" />
+    <Compile Include="Entities\Venda.cs" />
+    <Compile Include="Interfaces\Repository\IAnuncioRepository.cs" />
+    <Compile Include="Interfaces\Repository\ICategoriaRepository.cs" />
+    <Compile Include="Interfaces\Repository\IChatRepository.cs" />
+    <Compile Include="Interfaces\Repository\IContatoRepository.cs" />
+    <Compile Include="Interfaces\Repository\IEnderecoRepository.cs" />
+    <Compile Include="Interfaces\Repository\IEntregaHistoricoRepository.cs" />
+    <Compile Include="Interfaces\Repository\IEntregaRepository.cs" />
+    <Compile Include="Interfaces\Repository\INegociacaoRepository.cs" />
+    <Compile Include="Interfaces\Repository\IProdutoImagemRepository.cs" />
+    <Compile Include="Interfaces\Repository\IProdutoRepository.cs" />
+    <Compile Include="Interfaces\Repository\IStatusEntregaRepository.cs" />
+    <Compile Include="Interfaces\Repository\IStatusNegociacaoRepository.cs" />
+    <Compile Include="Interfaces\Repository\IStatusVendaRepository.cs" />
+    <Compile Include="Interfaces\Repository\ITelefoneRepository.cs" />
+    <Compile Include="Interfaces\Repository\IUsuarioImagemRepository.cs" />
+    <Compile Include="Interfaces\Repository\IUsuarioRepository.cs" />
+    <Compile Include="Interfaces\Repository\IRepository.cs" />
+    <Compile Include="Interfaces\Repository\IVendaRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
