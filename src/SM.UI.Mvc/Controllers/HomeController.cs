@@ -12,7 +12,7 @@ namespace SM.UI.Mvc.Controllers
     {
         public ActionResult Index()
         {
-            this.AddToastMessage("Este eh o corpo da mensagem 1, eh obrigatoria", "Este eh o Titulo", ToastType.Success, true);
+            //this.AddToastMessage("Este eh o corpo da mensagem 1, eh obrigatoria", "Este eh o Titulo", ToastType.Success, true);
             return View();
         }
 

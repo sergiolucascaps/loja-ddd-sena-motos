@@ -10,7 +10,6 @@ C:\Projetos\SenaMotos\src\SM.Domain\obj\Debug\SM.Domain.pdb
 C:\Projetos\SenaMotos\src\SM.Domain\obj\Debug\SM.Domain.csproj.CoreCompileInputs.cache
 C:\Projetos\git\loja-ddd-sena-motos\src\SM.Domain\bin\Debug\SM.Domain.dll
 C:\Projetos\git\loja-ddd-sena-motos\src\SM.Domain\bin\Debug\SM.Domain.pdb
-C:\Projetos\git\loja-ddd-sena-motos\src\SM.Domain\obj\Debug\SM.Domain.csprojResolveAssemblyReference.cache
 C:\Projetos\git\loja-ddd-sena-motos\src\SM.Domain\obj\Debug\SM.Domain.csproj.CoreCompileInputs.cache
 C:\Projetos\git\loja-ddd-sena-motos\src\SM.Domain\obj\Debug\SM.Domain.dll
 C:\Projetos\git\loja-ddd-sena-motos\src\SM.Domain\obj\Debug\SM.Domain.pdb

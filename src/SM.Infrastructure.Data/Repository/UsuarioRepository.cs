@@ -42,8 +42,8 @@ namespace SM.Infrastructure.Data.Repository
             
             var cn = Db.Database.Connection;
             var sql = @"SELECT * FROM Tab_Usuario";
-            return cn.Query<Usuario>(sql).Take(100).Skip(10);
-            //return cn.Query<Usuario>(sql);
+            //return cn.Query<Usuario>(sql).Take(100).Skip(10);
+            return cn.Query<Usuario>(sql);
 
             #endregion
         }

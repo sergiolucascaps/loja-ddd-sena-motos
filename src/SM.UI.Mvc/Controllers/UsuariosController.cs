@@ -36,7 +36,7 @@ namespace SM.UI.Mvc.Controllers
         {
             if (id == null)
             {
-                this.AddToastMessage("Não foi possível exibir os detalhes deste usuário, por favor tente novamente", "Problema ao ver detalhes", ToastType.Error, true);
+                //this.AddToastMessage("Não foi possível exibir os detalhes deste usuário, por favor tente novamente", "Problema ao ver detalhes", ToastType.Error, true);
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
@@ -121,6 +121,7 @@ namespace SM.UI.Mvc.Controllers
         // POST: Usuarios/Delete/5
         [ValidateAntiForgeryToken]
         //[Route("{id:guid}/excluir")]
+        [HttpPost, ActionName("Delete")]
         public ActionResult DeleteConfirmed(Guid id)
         {
             _usuarioAppService.Remover(id);
