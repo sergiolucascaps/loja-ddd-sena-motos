@@ -11,11 +11,11 @@ namespace SM.Application.Interfaces
     public interface IUsuarioAppService : IDisposable
     {
         UsuarioUsuarioImagemViewModel Adicionar(UsuarioUsuarioImagemViewModel usuarioImagemViewModel);
-        UsuarioViewModel ObterPorId(Guid id);
+        UsuarioUsuarioImagemViewModel ObterPorId(Guid id);
         UsuarioViewModel ObterPorCpf(string cpf);
         IEnumerable<UsuarioViewModel> ObterTodos();
         UsuarioViewModel ObterPorLogin(string Login);
-        UsuarioViewModel Atualizar(UsuarioViewModel obj);
+        UsuarioUsuarioImagemViewModel Atualizar(UsuarioUsuarioImagemViewModel usuarioImagemViewModel);
         IEnumerable<UsuarioViewModel> ObterPorNome(string nome);
         void Remover(Guid id);
     }

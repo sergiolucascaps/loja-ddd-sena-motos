@@ -1,0 +1,17 @@
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Application\bin\Release\SM.Application.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Application\bin\Release\SM.Application.pdb
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Application\bin\Release\AutoMapper.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Application\bin\Release\SM.Domain.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Application\bin\Release\SM.Infrastructure.Data.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Application\bin\Release\EntityFramework.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Application\bin\Release\Dapper.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Application\bin\Release\SM.Domain.pdb
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Application\bin\Release\SM.Infrastructure.Data.pdb
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Application\bin\Release\SM.Infrastructure.Data.dll.config
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Application\bin\Release\AutoMapper.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Application\bin\Release\EntityFramework.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Application\bin\Release\Dapper.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Application\obj\Release\SM.Application.csprojResolveAssemblyReference.cache
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Application\obj\Release\SM.Application.csproj.CoreCompileInputs.cache
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Application\obj\Release\SM.Application.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Application\obj\Release\SM.Application.pdb

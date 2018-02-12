@@ -27,16 +27,21 @@ namespace SM.UI.Mvc
                         "~/Scripts/ScriptGeral.js",
                         "~/Scripts/toastr.js"));
 
-            bundles.Add(new StyleBundle("~/Content/css").Include(
+            bundles.Add(new StyleBundle("~/bundles/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      //"~/Content/bootstrap.custom.css",
+                      "~/Content/bootstrap.custom.css",
                       "~/Content/site.css",
                       "~/Content/toastr.css"));
 
-            // Bundles de Paginas expecíficas 
-            bundles.Add(new ScriptBundle("~/Content/Pages/js").Include(
-                "~/Scripts/Pages/Usuarios_Create.js"
+            // Bundles de Paginas por Controller 
+            bundles.Add(new ScriptBundle("~/bundles/Content/Usuarios/js").Include(
+                "~/Scripts/PorController/Usuarios.js"
                 ));
+
+            // Bundles de Paginas Individuais
+
+            bundles.Add(new ScriptBundle("~/bundles/Content/UsuariosCreate/js").Include("~/Scripts/PorPage/Usuarios_Create.js"));
+            bundles.Add(new ScriptBundle("~/bundles/Content/UsuariosEdit/js").Include("~/Scripts/PorPage/Usuarios_Edit.js"));
         }
     }
 }

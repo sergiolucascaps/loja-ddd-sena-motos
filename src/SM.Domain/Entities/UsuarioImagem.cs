@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SM.Domain.Entities
 {
@@ -10,10 +6,11 @@ namespace SM.Domain.Entities
     {
         public UsuarioImagem()
         {
-            Idf_Imagem = Guid.NewGuid();
+            //this.Idf_Imagem = Guid.NewGuid();
+            //this.Usuario.Idf_Usuario
         }
-        public Guid     Idf_Imagem          { get; set; }
-        public string   Imagem              { get; set; } // Refatorar
+        //public Guid     Idf_Imagem          { get; set; }
+        public string   Imagem              { get; set; }
         public DateTime Dta_Cadastro        { get; set; }
         public DateTime? Dta_Alteracao       { get; set; }
         public Guid     Idf_Usuario         { get; set; }

@@ -32,12 +32,16 @@ namespace SM.Application
             return usuarioUsuarioImagemViewModel;
         }
 
-        public UsuarioViewModel Atualizar(UsuarioViewModel obj)
+        public UsuarioUsuarioImagemViewModel Atualizar(UsuarioUsuarioImagemViewModel usuarioUsuarioImagemViewModel)
         {
-            var objUsuario = Mapper.Map<UsuarioViewModel, Usuario>(obj);
+            //var objUsuario = Mapper.Map<UsuarioViewModel, Usuario>(obj);
+            var objUsuario = Mapper.Map<UsuarioUsuarioImagemViewModel, Usuario>(usuarioUsuarioImagemViewModel);
+            var objUsuarioImagem = Mapper.Map<UsuarioUsuarioImagemViewModel, UsuarioImagem>(usuarioUsuarioImagemViewModel);
+
+            objUsuario.UsuarioImagem = objUsuarioImagem;
             _usuarioRepository.Atualizar(objUsuario);
 
-            return obj;
+            return usuarioUsuarioImagemViewModel;
         }
 
         public void Dispose()
@@ -52,9 +56,10 @@ namespace SM.Application
             return Mapper.Map<Usuario, UsuarioViewModel>(_usuarioRepository.ObterPorCpf(cpf));
         }
 
-        public UsuarioViewModel ObterPorId(Guid id)
+        public UsuarioUsuarioImagemViewModel ObterPorId(Guid id)
         {
-            return Mapper.Map<Usuario, UsuarioViewModel>(_usuarioRepository.ObterPorId(id));
+            //return Mapper.Map<Usuario, UsuarioViewModel>(_usuarioRepository.ObterPorId(id));
+            return Mapper.Map<Usuario, UsuarioUsuarioImagemViewModel>(_usuarioRepository.ObterPorId(id));
         }
 
         public UsuarioViewModel ObterPorLogin(string Login)

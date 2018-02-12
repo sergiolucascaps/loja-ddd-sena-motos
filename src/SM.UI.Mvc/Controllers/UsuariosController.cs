@@ -11,6 +11,8 @@ using SM.UI.Mvc.Models;
 using SM.Application;
 using SM.UI.Mvc.ExtensionMethods;
 using SM.UI.Mvc.Enumeradores;
+using System.Threading;
+using SM.UI.Mvc.Classes;
 
 namespace SM.UI.Mvc.Controllers
 {
@@ -30,7 +32,7 @@ namespace SM.UI.Mvc.Controllers
         {
             return View(_usuarioAppService.ObterTodos().Where(u => !u.Flg_Inativo).OrderBy(u => u.Nme_Usuario));
         }
-
+        
         // GET: Usuarios/Details/5
         public ActionResult Details(Guid? id)
         {
@@ -46,6 +48,13 @@ namespace SM.UI.Mvc.Controllers
             {
                 return HttpNotFound();
             }
+
+            var folders = System.Configuration.ConfigurationManager.AppSettings["CaminhoImagensPerfil"];
+            var pathAplicacao = AppDomain.CurrentDomain.BaseDirectory;
+            var caminho = pathAplicacao + folders;
+
+            var imgBase64 = Util.ReadFileOnServer(caminho + usuario.Idf_Usuario.ToString() + ".txt");
+            usuario.Imagem = imgBase64;
             return View("_Details", usuario);
         }
 
@@ -66,6 +75,14 @@ namespace SM.UI.Mvc.Controllers
         {
             if (ModelState.IsValid)
             {
+                var folders = System.Configuration.ConfigurationManager.AppSettings["CaminhoImagensPerfil"];
+                var pathAplicacao = AppDomain.CurrentDomain.BaseDirectory;
+                var caminho = pathAplicacao + folders;
+
+                Util.SaveTxtFileOnServer(caminho + objUsuarioUsuarioImagemViewModel.Idf_Usuario + ".txt", objUsuarioUsuarioImagemViewModel.Imagem );
+
+                objUsuarioUsuarioImagemViewModel.Imagem = objUsuarioUsuarioImagemViewModel.Idf_Usuario.ToString();
+
                 _usuarioAppService.Adicionar(objUsuarioUsuarioImagemViewModel);
                 return RedirectToAction("Index");
             }
@@ -85,6 +102,13 @@ namespace SM.UI.Mvc.Controllers
             {
                 return HttpNotFound();
             }
+
+            var folders = System.Configuration.ConfigurationManager.AppSettings["CaminhoImagensPerfil"];
+            var pathAplicacao = AppDomain.CurrentDomain.BaseDirectory;
+            var caminho = pathAplicacao + folders;
+
+            var imgBase64 = Util.ReadFileOnServer(caminho + usuario.Idf_Usuario.ToString() + ".txt");
+            usuario.Imagem = imgBase64;
             return View(usuario);
         }
 
@@ -93,14 +117,22 @@ namespace SM.UI.Mvc.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(UsuarioViewModel objUsuarioViewModel)
+        public ActionResult Edit(UsuarioUsuarioImagemViewModel objUsuarioUsuarioImagemViewModel)
         {
             if (ModelState.IsValid)
             {
-                _usuarioAppService.Atualizar(objUsuarioViewModel);
+                var folders = System.Configuration.ConfigurationManager.AppSettings["CaminhoImagensPerfil"];
+                var pathAplicacao = AppDomain.CurrentDomain.BaseDirectory;
+                var caminho = pathAplicacao + folders;
+
+                Util.SaveTxtFileOnServer(caminho + objUsuarioUsuarioImagemViewModel.Idf_Usuario + ".txt", objUsuarioUsuarioImagemViewModel.Imagem);
+
+                objUsuarioUsuarioImagemViewModel.Imagem = objUsuarioUsuarioImagemViewModel.Idf_Usuario.ToString();
+
+                _usuarioAppService.Atualizar(objUsuarioUsuarioImagemViewModel);
                 return RedirectToAction("Index");
             }
-            return View(objUsuarioViewModel);
+            return View(objUsuarioUsuarioImagemViewModel);
         }
 
         // GET: Usuarios/Delete/5

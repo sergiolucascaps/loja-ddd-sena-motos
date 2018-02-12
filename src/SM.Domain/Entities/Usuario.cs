@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SM.Domain.Entities
 {
@@ -10,7 +7,7 @@ namespace SM.Domain.Entities
     {
         public Usuario()
         {
-            Idf_Usuario = Guid.NewGuid();
+            this.Idf_Usuario = Guid.NewGuid();
             //Categorias = new HashSet<Categoria>();
         }
 

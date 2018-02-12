@@ -1,5 +1,4 @@
-﻿using Dapper;
-using SM.Domain.Interfaces.Repository;
+﻿using SM.Domain.Interfaces.Repository;
 using SM.Infrastructure.Data.Context;
 using System;
 using System.Collections.Generic;

@@ -1,0 +1,15 @@
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\bin\Release\SM.Infrastructure.Data.dll.config
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\bin\Release\SM.Infrastructure.Data.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\bin\Release\SM.Infrastructure.Data.pdb
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\bin\Release\Dapper.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\bin\Release\EntityFramework.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\bin\Release\EntityFramework.SqlServer.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\bin\Release\SM.Domain.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\bin\Release\SM.Domain.pdb
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\bin\Release\Dapper.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\bin\Release\EntityFramework.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\bin\Release\EntityFramework.SqlServer.xml
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\obj\Release\SM.Infrastructure.Data.csprojResolveAssemblyReference.cache
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\obj\Release\SM.Infrastructure.Data.csproj.CoreCompileInputs.cache
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\obj\Release\SM.Infrastructure.Data.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Infrastructure.Data\obj\Release\SM.Infrastructure.Data.pdb

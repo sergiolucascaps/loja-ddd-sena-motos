@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SM.Domain.Entities;
-using System.Data.Entity.ModelConfiguration.Conventions;
+﻿using SM.Domain.Entities;
 using SM.Infrastructure.Data.EntityConfig;
+using System;
+using System.Data.Entity;
+using System.Data.Entity.ModelConfiguration.Conventions;
+using System.Linq;
 
 namespace SM.Infrastructure.Data.Context
 {
@@ -103,7 +100,7 @@ namespace SM.Infrastructure.Data.Context
         public override int SaveChanges()
         {
             // Percorre as INSERÇÕES inserindo a Data de Cadastro.
-            foreach (var entry in ChangeTracker.Entries().Where(entry => entry.Entity.GetType().GetProperty("Dta_Cadastro") != null))
+            foreach (var entry in ChangeTracker.Entries().Where(entry => entry.Entity.GetType().GetProperty("Dta_Cadastro") != null && entry.Entity.GetType().GetProperty("Dta_Alteracao") != null))
             {
                 if (entry.State == EntityState.Added)
                 {

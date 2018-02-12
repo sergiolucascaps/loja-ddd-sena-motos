@@ -53,7 +53,8 @@ function limpaModal() {
 }
 
 function WaitOn() {
-    $("#conteudo").append('<div class="progress_img_container" id="progress_img_container"><div class="img_container" id="img_container"><img id="imgProgress" src="/images/Wait.gif" /><label id="lblCarregandoProgress" class="carregando">Processando<\/label><\/div><\/div>');
+    //$("#conteudo").append('<div class="progress_img_container" id="progress_img_container"><div class="img_container" id="img_container"><img id="imgProgress" src="/images/Wait.gif" /><label id="lblCarregandoProgress" class="carregando">Processando<\/label><\/div><\/div>');
+    $(".container.body-content").append('<div class="progress_img_container progress_background" id="progress_img_container"><div class="img_container" id="img_container"><img id="imgProgress" src="/Images/carregando.gif" /><\/div><\/div>');
 }
 function WaitOff() { $("#progress_img_container").remove(); }
 
@@ -75,9 +76,11 @@ function buscaDados(item) {
     var mFooter = $('#footerModal');
     $.ajax({
         url: url,
+        beforeSend: function () { WaitOn(); },
         type: this.method,
         data: $(this).serialize(),
         success: function (result) {
+            WaitOff();
             // Preenchimento do Body da Modal
             mBody.html(result);
 
@@ -105,10 +108,25 @@ function buscaDados(item) {
             $('#myModal').modal('show');
         },
         error: function (result) {
+            WaitOff();
             $('#myModal').modal('hide');
             objMensagem = objMensagem != undefined ? objMensagem : new Mensagem();
             objMensagem.MostrarMensagem('Problema ao buscar dados. Tente novamente!', 'Oops !', 'error', true);
         }
     });
     return false;
+}
+
+// *************** Criação do Script de Formatação Generico *****************
+//  Script configurável para fomatação de CEP, CPF, Telefone e outros
+//  Ex:   OnKeyPress = "formatar('###.###.###-##', this)"
+function formatar(mascara, documento) {
+    var i = documento.value.length;
+    var saida = mascara.substring(0, 1);
+    var texto = mascara.substring(i)
+
+    if (texto.substring(0, 1) != saida) {
+        documento.value += texto.substring(0, 1);
+    }
+
 }

@@ -13,7 +13,7 @@ namespace SM.Application.ViewModels
         public UsuarioUsuarioImagemViewModel()
         {
             Idf_Usuario = Guid.NewGuid();
-            Idf_Imagem = Guid.NewGuid();
+            //Idf_Imagem = Guid.NewGuid();
         }
 
         #region UsuarioViewModel
@@ -21,31 +21,31 @@ namespace SM.Application.ViewModels
         [Key]
         public Guid Idf_Usuario { get; set; }
 
-        [Required(ErrorMessage = "Campo Nome obrigatório.")]
-        [MaxLength(150, ErrorMessage = "Máximo {0} caracteres.")]
-        [MinLength(2, ErrorMessage = "Mínimo {0} caracteres.")]
+        [Required(ErrorMessage = "Campo {0} obrigatório.")]
+        [MaxLength(150, ErrorMessage = "Máximo {1} caracteres.")]
+        [MinLength(2, ErrorMessage = "Mínimo {1} caracteres.")]
         [DisplayName("Nome")]
         public string Nme_Usuario { get; set; }
 
-        [Required(ErrorMessage = "Campo CPF obrigatório.")]
-        [MaxLength(11, ErrorMessage = "Máximo {0} caracteres.")]
+        [Required(ErrorMessage = "Campo {0} obrigatório.")]
+        [MaxLength(11, ErrorMessage = "Máximo {1} caracteres.")]
         [DisplayName("CPF")]
         public string Num_Cpf { get; set; }
 
-        [Required(ErrorMessage = "Campo Email obrigatório.")]
-        [MaxLength(150, ErrorMessage = "Campo Email obrigatório.")]
+        [Required(ErrorMessage = "Campo {0} obrigatório.")]
+        [MaxLength(150, ErrorMessage = "Máximo {1} caracteres.")]
         [DisplayName("E-mail")]
         public string Eml_Usuario { get; set; }
 
         [ScaffoldColumn(false)]
         public bool Flg_Inativo { get; set; }
 
-        [Required(ErrorMessage = "O Campo Senha é obrigatório.")]
+        [Required(ErrorMessage = "Campo {0} obrigatório.")]
         [DisplayName("Senha")]
         [DataType(DataType.Password)]
         public string Des_Senha { get; set; }
 
-        [Required(ErrorMessage = "Confirmação de Senha obritarória.")]
+        [Required(ErrorMessage = "{0} obritarória.")]
         [DisplayName("Confirmação de Senha")]
         [DataType(DataType.Password)]
         [Compare("Des_Senha", ErrorMessage = "As senhas não coincidem.")]
@@ -71,12 +71,11 @@ namespace SM.Application.ViewModels
 
         #region UsuarioImagemViewModel
 
-        [Key]
-        public Guid Idf_Imagem { get; set; }
+        //[Key]
+        //public Guid Idf_Imagem { get; set; }
 
-        [Required]
         [DisplayName("Imagem")]
-        public string Imagem { get; set; } // Refatorar
+        public string Imagem { get; set; } 
         
         #endregion
     }

@@ -1,0 +1,6 @@
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Domain\bin\Release\SM.Domain.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Domain\bin\Release\SM.Domain.pdb
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Domain\obj\Release\SM.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Domain\obj\Release\SM.Domain.dll
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Domain\obj\Release\SM.Domain.pdb
+C:\Projetos\git\loja-ddd-sena-motos\src\SM.Domain\obj\Release\SM.Domain.csprojResolveAssemblyReference.cache

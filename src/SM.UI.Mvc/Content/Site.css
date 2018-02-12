@@ -22,3 +22,50 @@ select,
 textarea {
     max-width: 280px;
 }*/
+
+.progress_background {
+    /*-moz-opacity: 0.7;*/
+    /*background-color: #e6e6e6;*/
+    /*background-color: #000;*/
+    filter: alpha(opacity=70);
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100004;
+}
+
+.progress_img_container {
+    left: 0;
+    height: 100%;
+    margin: 0 auto;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 100005;
+}
+
+.img_container {
+    /*background-color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 6px 1px #ccc;*/
+    margin: 20% auto 0;
+    padding: 20px 0 22px;
+    width: 220px;
+}
+
+.progress_img_container img {
+    padding-left: 0;
+    padding-top: 5px;
+    vertical-align: middle;
+}
+
+.progress_img_container .carregando {
+    color: #444;
+    font-size: 21px;
+    margin-left: 15px;
+    vertical-align: middle;
+}

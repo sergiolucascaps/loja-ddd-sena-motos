@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SM.Application.ViewModels
 {
@@ -17,10 +13,9 @@ namespace SM.Application.ViewModels
 
         [Key]
         public Guid Idf_Imagem { get; set; }
-
-        [Required]
+        
         [DisplayName("Imagem")]
-        public string Imagem { get; set; } // Refatorar
+        public string Imagem { get; set; }
 
         [Required]
         [ScaffoldColumn(false)]

@@ -160,6 +160,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Classes\toastr\ToastMessage.cs" />
     <Compile Include="Classes\toastr\Toastr.cs" />
+    <Compile Include="Classes\Util.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -197,8 +198,10 @@
     <Content Include="Content\toastr.scss" />
     <Content Include="Content\toastr.less" />
     <Content Include="Content\bootstrap.custom.css" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Images\Avatar_Perfil_Usuario.gif" />
+    <Content Include="Images\carregando.gif" />
     <Content Include="Images\Wait.gif" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -212,7 +215,9 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="Scripts\Pages\Usuarios_Create.js" />
+    <Content Include="Scripts\PorController\Usuarios.js" />
+    <Content Include="Scripts\PorPage\Usuarios_Create.js" />
+    <Content Include="Scripts\PorPage\Usuarios_Edit.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.matchmedia.addListener.js" />
     <Content Include="Scripts\respond.matchmedia.addListener.min.js" />

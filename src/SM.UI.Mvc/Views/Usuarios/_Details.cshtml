@@ -1,12 +1,24 @@
-﻿@model SM.Application.ViewModels.UsuarioViewModel
+﻿@*@model SM.Application.ViewModels.UsuarioViewModel*@
+@model SM.Application.ViewModels.UsuarioUsuarioImagemViewModel
 @{
     Layout = "";
 }
 <div>
+    @if (!string.IsNullOrWhiteSpace(Model.Imagem))
+    {
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <img src="@Model.Imagem" style="float:right" alt="Imagem_Avatar_Usuario" class="img-circle img-thumbnail ">
+                </div>
+            </div>
+        </div>
+    }
+
     <dl class="dl-horizontal">
         @Html.HiddenFor(hdd => hdd.Nme_Usuario, new { @id = "hddTitulo" })<!--Será usado no front pra mostrar titulo da Modal-->
-        <dt> @Html.DisplayNameFor(model => model.Nme_Usuario) </dt>
-        <dd> @Html.DisplayFor(model => model.Nme_Usuario) </dd>
+        @*<dt> @Html.DisplayNameFor(model => model.Nme_Usuario) </dt>
+            <dd> @Html.DisplayFor(model => model.Nme_Usuario) </dd>*@
         <dt> @Html.DisplayNameFor(model => model.Num_Cpf)</dt>
         <dd> @Html.DisplayFor(model => model.Num_Cpf) </dd>
         <dt> @Html.DisplayNameFor(model => model.Eml_Usuario) </dt>
