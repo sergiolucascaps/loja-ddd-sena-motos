@@ -20,7 +20,7 @@ namespace SM.Domain.Entities
         public string   Des_Senha_Hash                      { get; set; }
         public DateTime Dta_Nascimento                      { get; set; }
         public DateTime Dta_Cadastro                        { get; set; }
-        public DateTime? Dta_Alteracao                       { get; set; }
+        public DateTime? Dta_Alteracao                      { get; set; }
 
         public virtual Contato Contato                      { get; set; }
         public virtual UsuarioImagem UsuarioImagem          { get; set; }

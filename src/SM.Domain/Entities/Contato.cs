@@ -13,7 +13,7 @@ namespace SM.Domain.Entities
         public Guid     Idf_Contato                     { get; set; }
         public string   Des_Eml_Contato                 { get; set; }
         public DateTime Dta_Cadastro                    { get; set; }
-        public DateTime? Dta_Alteracao                   { get; set; }
+        public DateTime? Dta_Alteracao                  { get; set; }
         public Guid     Idf_Usuario                     { get; set; }
 
         public virtual Usuario Usuario                  { get; set; }

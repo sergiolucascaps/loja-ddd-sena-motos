@@ -43,6 +43,10 @@ namespace SM.Infrastructure.Data.Repository
 
         public virtual TEntity ObterPorId(Guid id)
         {
+            #region Usando Dapper
+            //TODO: Implementar com Dapper
+            #endregion
+
             #region Usando Entity Framework
 
             return DbSet.Find(id);

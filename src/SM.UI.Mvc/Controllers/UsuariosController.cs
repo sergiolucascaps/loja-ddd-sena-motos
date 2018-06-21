@@ -1,44 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using SM.Application.Interfaces;
+using SM.Application.ViewModels;
+using SM.UI.Mvc.Classes;
+using SM.UI.Mvc.Enumeradores;
+using SM.UI.Mvc.ExtensionMethods;
+using System;
 using System.Data;
-using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
-using SM.Application.ViewModels;
-using SM.UI.Mvc.Models;
-using SM.Application;
-using SM.UI.Mvc.ExtensionMethods;
-using SM.UI.Mvc.Enumeradores;
-using System.Threading;
-using SM.UI.Mvc.Classes;
 
 namespace SM.UI.Mvc.Controllers
 {
-    //[RoutePrefix("administrativo-usuarios")]
     public class UsuariosController : Controller
     {
-        private readonly UsuarioAppService _usuarioAppService;
+        private readonly IUsuarioAppService _usuarioAppService;
 
-        public UsuariosController()
+        public UsuariosController(IUsuarioAppService usuarioAppService)
         {
-            _usuarioAppService = new UsuarioAppService();
+            _usuarioAppService = usuarioAppService;
         }
-
-        // GET: Usuarios
-        //[Route("listar")]
+        
         public ActionResult Index()
         {
             return View(_usuarioAppService.ObterTodos().Where(u => !u.Flg_Inativo).OrderBy(u => u.Nme_Usuario));
         }
         
-        // GET: Usuarios/Details/5
         public ActionResult Details(Guid? id)
         {
             if (id == null)
             {
-                //this.AddToastMessage("Não foi possível exibir os detalhes deste usuário, por favor tente novamente", "Problema ao ver detalhes", ToastType.Error, true);
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
@@ -58,19 +48,13 @@ namespace SM.UI.Mvc.Controllers
             return View("_Details", usuario);
         }
 
-        // GET: Usuarios/Create
-        //[Route("incluir-novo")]
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Usuarios/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        //[Route("incluir-novo")]
         public ActionResult Create(UsuarioUsuarioImagemViewModel objUsuarioUsuarioImagemViewModel)
         {
             if (ModelState.IsValid)
@@ -90,7 +74,6 @@ namespace SM.UI.Mvc.Controllers
             return View(objUsuarioUsuarioImagemViewModel);
         }
 
-        // GET: Usuarios/Edit/5
         public ActionResult Edit(Guid? id)
         {
             if (id == null)
@@ -112,9 +95,6 @@ namespace SM.UI.Mvc.Controllers
             return View(usuario);
         }
 
-        // POST: Usuarios/Edit/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(UsuarioUsuarioImagemViewModel objUsuarioUsuarioImagemViewModel)
@@ -135,7 +115,6 @@ namespace SM.UI.Mvc.Controllers
             return View(objUsuarioUsuarioImagemViewModel);
         }
 
-        // GET: Usuarios/Delete/5
         public ActionResult Delete(Guid? id)
         {
             if (id == null)
@@ -150,9 +129,7 @@ namespace SM.UI.Mvc.Controllers
             return View("_Delete", usuario);
         }
 
-        // POST: Usuarios/Delete/5
         [ValidateAntiForgeryToken]
-        //[Route("{id:guid}/excluir")]
         [HttpPost, ActionName("Delete")]
         public ActionResult DeleteConfirmed(Guid id)
         {

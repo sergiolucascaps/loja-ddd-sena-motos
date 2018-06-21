@@ -1,23 +1,20 @@
-﻿using SM.Application.Interfaces;
+﻿using AutoMapper;
+using SM.Application.Interfaces;
+using SM.Application.ViewModels;
+using SM.Domain.Entities;
+using SM.Domain.Interfaces.Services;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SM.Application.ViewModels;
-using SM.Infrastructure.Data.Repository;
-using AutoMapper;
-using SM.Domain.Entities;
 
 namespace SM.Application
 {
     public class UsuarioAppService : IUsuarioAppService
     {
-        private readonly UsuarioRepository _usuarioRepository;
+        private readonly IUsuarioService _usuarioService;
 
-        public UsuarioAppService()
+        public UsuarioAppService(IUsuarioService usuarioService)
         {
-            _usuarioRepository = new UsuarioRepository();
+            _usuarioService = usuarioService;
         }
 
         public UsuarioUsuarioImagemViewModel Adicionar(UsuarioUsuarioImagemViewModel usuarioUsuarioImagemViewModel)
@@ -27,59 +24,57 @@ namespace SM.Application
 
             objUsuario.UsuarioImagem = objUsuarioImagem;
 
-            _usuarioRepository.Adicionar(objUsuario);
+            _usuarioService.Adicionar(objUsuario);
 
             return usuarioUsuarioImagemViewModel;
         }
 
         public UsuarioUsuarioImagemViewModel Atualizar(UsuarioUsuarioImagemViewModel usuarioUsuarioImagemViewModel)
         {
-            //var objUsuario = Mapper.Map<UsuarioViewModel, Usuario>(obj);
             var objUsuario = Mapper.Map<UsuarioUsuarioImagemViewModel, Usuario>(usuarioUsuarioImagemViewModel);
             var objUsuarioImagem = Mapper.Map<UsuarioUsuarioImagemViewModel, UsuarioImagem>(usuarioUsuarioImagemViewModel);
 
             objUsuario.UsuarioImagem = objUsuarioImagem;
-            _usuarioRepository.Atualizar(objUsuario);
+            _usuarioService.Atualizar(objUsuario);
 
             return usuarioUsuarioImagemViewModel;
         }
 
         public void Dispose()
         {
-            _usuarioRepository.Dispose();
+            _usuarioService.Dispose();
 
             GC.SuppressFinalize(this);
         }
 
         public UsuarioViewModel ObterPorCpf(string cpf)
         {
-            return Mapper.Map<Usuario, UsuarioViewModel>(_usuarioRepository.ObterPorCpf(cpf));
+            return Mapper.Map<Usuario, UsuarioViewModel>(_usuarioService.ObterPorCpf(cpf));
         }
 
         public UsuarioUsuarioImagemViewModel ObterPorId(Guid id)
         {
-            //return Mapper.Map<Usuario, UsuarioViewModel>(_usuarioRepository.ObterPorId(id));
-            return Mapper.Map<Usuario, UsuarioUsuarioImagemViewModel>(_usuarioRepository.ObterPorId(id));
+            return Mapper.Map<Usuario, UsuarioUsuarioImagemViewModel>(_usuarioService.ObterPorId(id));
         }
 
         public UsuarioViewModel ObterPorLogin(string Login)
         {
-            return Mapper.Map<Usuario, UsuarioViewModel>(_usuarioRepository.ObterPorLogin(Login));
+            return Mapper.Map<Usuario, UsuarioViewModel>(_usuarioService.ObterPorLogin(Login));
         }
 
         public IEnumerable<UsuarioViewModel> ObterPorNome(string nome)
         {
-            return Mapper.Map<IEnumerable<Usuario>, IEnumerable<UsuarioViewModel>>(_usuarioRepository.ObterPorNome(nome));
+            return Mapper.Map<IEnumerable<Usuario>, IEnumerable<UsuarioViewModel>>(_usuarioService.ObterPorNome(nome));
         }
 
         public IEnumerable<UsuarioViewModel> ObterTodos()
         {
-            return Mapper.Map<IEnumerable<Usuario>, IEnumerable<UsuarioViewModel>>(_usuarioRepository.ObterTodos());
+            return Mapper.Map<IEnumerable<Usuario>, IEnumerable<UsuarioViewModel>>(_usuarioService.ObterTodos());
         }
 
         public void Remover(Guid id)
         {
-            _usuarioRepository.Remover(id);
+            _usuarioService.Remover(id);
         }
     }
 }
