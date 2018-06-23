@@ -13,17 +13,15 @@ namespace SM.Infrastructure.Data.Repository
         protected SenaMotosContext Db;
         protected DbSet<TEntity> DbSet;
 
-        public Repository()
+        public Repository(SenaMotosContext context)
         {
-            Db = new SenaMotosContext();
+            Db = context;
             DbSet = Db.Set<TEntity>();
         }
 
         public virtual TEntity Adicionar(TEntity obj)
         {
-            var objRetorno = DbSet.Add(obj);
-            SaveChanges();
-            return objRetorno;
+            return DbSet.Add(obj);
         }
 
         public virtual TEntity Atualizar(TEntity obj)
@@ -31,7 +29,7 @@ namespace SM.Infrastructure.Data.Repository
             var entry = Db.Entry(obj);
             DbSet.Attach(obj);
             entry.State = EntityState.Modified;
-            SaveChanges();
+            //SaveChanges(); // Comentado pois foi implementado UnitOfWork
 
             return obj;
         }
@@ -66,7 +64,7 @@ namespace SM.Infrastructure.Data.Repository
         {
             //DbSet.Remove(ObterPorId(id)); ou
             DbSet.Remove(DbSet.Find(id));
-            SaveChanges();
+            //SaveChanges(); // Comentado pois foi implementado UnitOfWork
         }
 
         public int SaveChanges()

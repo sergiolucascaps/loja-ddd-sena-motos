@@ -1,6 +1,7 @@
 ﻿using Dapper;
 using SM.Domain.Entities;
 using SM.Domain.Interfaces.Repository;
+using SM.Infrastructure.Data.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,13 @@ namespace SM.Infrastructure.Data.Repository
 {
     public class UsuarioRepository : Repository<Usuario>, IUsuarioRepository
     {
+
+        public UsuarioRepository(SenaMotosContext context)
+            :base(context)
+        {
+
+        }
+
         public Usuario ObterPorCpf(string cpf)
         {
             //return Db.Tab_Usuario.FirstOrDefault(u => u.Num_Cpf.Equals(cpf));

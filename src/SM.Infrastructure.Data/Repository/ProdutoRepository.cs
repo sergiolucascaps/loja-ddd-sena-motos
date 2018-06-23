@@ -1,5 +1,6 @@
 ﻿using SM.Domain.Entities;
 using SM.Domain.Interfaces.Repository;
+using SM.Infrastructure.Data.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +9,12 @@ namespace SM.Infrastructure.Data.Repository
 {
     public class ProdutoRepository : Repository<Produto>, IProdutoRepository
     {
+        public ProdutoRepository(SenaMotosContext context)
+            : base(context)
+        {
+
+        }
+
         public IEnumerable<Produto> ObterPorIdAnuncio(Guid id)
         {
             return Buscar(p => p.Idf_Anuncio.Equals(id)).ToList();

@@ -70,6 +70,7 @@
     <Compile Include="EntityConfig\UsuarioConfig.cs" />
     <Compile Include="EntityConfig\UsuarioImagemConfig.cs" />
     <Compile Include="EntityConfig\VendaConfig.cs" />
+    <Compile Include="Interfaces\IUnitOfWork.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\AnuncioRepository.cs" />
@@ -90,6 +91,7 @@
     <Compile Include="Repository\UsuarioImagemRepository.cs" />
     <Compile Include="Repository\UsuarioRepository.cs" />
     <Compile Include="Repository\VendaRepository.cs" />
+    <Compile Include="UnitOfWork\UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
