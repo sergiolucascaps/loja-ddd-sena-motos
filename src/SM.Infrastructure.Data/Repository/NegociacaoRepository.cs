@@ -1,5 +1,6 @@
 ﻿using SM.Domain.Entities;
 using SM.Domain.Interfaces.Repository;
+using SM.Infrastructure.Data.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +9,12 @@ namespace SM.Infrastructure.Data.Repository
 {
     public class NegociacaoRepository : Repository<Negociacao>, INegociacaoRepository
     {
+        public NegociacaoRepository(SenaMotosContext context)
+            : base(context)
+        {
+
+        }
+
         public IEnumerable<Negociacao> ObterPorIdAnuncio(Guid id)
         {
             return Buscar(n => n.Idf_Anuncio.Equals(id)).ToList();

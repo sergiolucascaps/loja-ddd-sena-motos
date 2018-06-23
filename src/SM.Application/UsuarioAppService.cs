@@ -3,16 +3,18 @@ using SM.Application.Interfaces;
 using SM.Application.ViewModels;
 using SM.Domain.Entities;
 using SM.Domain.Interfaces.Services;
+using SM.Infrastructure.Data.Interfaces;
 using System;
 using System.Collections.Generic;
 
 namespace SM.Application
 {
-    public class UsuarioAppService : IUsuarioAppService
+    public class UsuarioAppService : AppService, IUsuarioAppService
     {
         private readonly IUsuarioService _usuarioService;
 
-        public UsuarioAppService(IUsuarioService usuarioService)
+        public UsuarioAppService(IUsuarioService usuarioService, IUnitOfWork uow)
+            :base(uow)
         {
             _usuarioService = usuarioService;
         }
@@ -25,6 +27,10 @@ namespace SM.Application
             objUsuario.UsuarioImagem = objUsuarioImagem;
 
             _usuarioService.Adicionar(objUsuario);
+
+            // Verificar se todas as regras de negócio de dominio foram satisfeitas
+            // EX: if(resultado do dominio)
+            Commit();
 
             return usuarioUsuarioImagemViewModel;
         }

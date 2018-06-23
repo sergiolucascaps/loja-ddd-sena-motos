@@ -4,7 +4,10 @@ using SM.Application.Interfaces;
 using SM.Domain.Interfaces.Repository;
 using SM.Domain.Interfaces.Services;
 using SM.Domain.Services;
+using SM.Infrastructure.Data.Context;
+using SM.Infrastructure.Data.Interfaces;
 using SM.Infrastructure.Data.Repository;
+using SM.Infrastructure.Data.UnitOfWork;
 
 namespace SM.Infrastructure.CrossCutting.IoC
 {
@@ -29,6 +32,9 @@ namespace SM.Infrastructure.CrossCutting.IoC
 
             // Dados
             container.Register<IUsuarioRepository, UsuarioRepository>(Lifestyle.Scoped);
+
+            container.Register<IUnitOfWork, UnitOfWork>(Lifestyle.Scoped);
+            container.Register<SenaMotosContext>(Lifestyle.Scoped);
         }
     }
 }

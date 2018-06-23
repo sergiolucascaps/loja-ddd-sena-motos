@@ -1,5 +1,6 @@
 ﻿using SM.Domain.Entities;
 using SM.Domain.Interfaces.Repository;
+using SM.Infrastructure.Data.Context;
 using System;
 using System.Linq;
 
@@ -7,6 +8,12 @@ namespace SM.Infrastructure.Data.Repository
 {
     public class VendaRepository : Repository<Venda>, IVendaRepository
     {
+        public VendaRepository(SenaMotosContext context)
+            : base(context)
+        {
+
+        }
+
         public Usuario ObterCompradorPorIdVenda(Guid id)
         {
             // Também pode resolver o problema(1). Verificar Performance
