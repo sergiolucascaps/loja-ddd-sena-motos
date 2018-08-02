@@ -1,6 +1,7 @@
 ﻿using SM.Domain.Entities;
 using SM.Domain.Interfaces.Repository;
 using SM.Domain.Interfaces.Services;
+using SM.Domain.Validations.Usuarios;
 using System;
 using System.Collections.Generic;
 
@@ -18,11 +19,27 @@ namespace SM.Domain.Services
 
         public Usuario Adicionar(Usuario usuario)
         {
+            if (!usuario.IsValid())
+                return usuario;
+
+            usuario.ValidationResult = new UsuarioAptoParaCadastroValidation(_usuarioRepository).Validate(usuario);
+
+            if (!usuario.ValidationResult.IsValid)
+                return usuario;
+
             return _usuarioRepository.Adicionar(usuario);
         }
 
         public Usuario Atualizar(Usuario usuario)
         {
+            if (!usuario.IsValid())
+                return usuario;
+
+            usuario.ValidationResult = new UsuarioAptoParaCadastroValidation(_usuarioRepository).Validate(usuario);
+
+            if (!usuario.ValidationResult.IsValid)
+                return usuario;
+
             return _usuarioRepository.Atualizar(usuario);
         }
 
