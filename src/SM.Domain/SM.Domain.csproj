@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DomainValidation, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\DomainValidation.1.0.0\lib\net453\DomainValidation.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
@@ -72,8 +75,18 @@
     <Compile Include="Interfaces\Services\IUsuarioService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\UsuarioService.cs" />
+    <Compile Include="Specifications\Usuarios\UsuarioDevePossuirCpfUnicoSpecification.cs" />
+    <Compile Include="Specifications\Usuarios\UsuarioDevePossuirEmailUnicoSpecification.cs" />
+    <Compile Include="Specifications\Usuarios\UsuarioDeveTerCpfValidoSpecification.cs" />
+    <Compile Include="Specifications\Usuarios\UsuarioDeveTerEmailValidoSpecification.cs" />
+    <Compile Include="Validations\Documentos\CPFValidation.cs" />
+    <Compile Include="Validations\Documentos\EmailValidation.cs" />
+    <Compile Include="Validations\Usuarios\UsuarioAptoParaCadastroValidation.cs" />
+    <Compile Include="Validations\Usuarios\UsuarioEstaConsistenteValidation.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

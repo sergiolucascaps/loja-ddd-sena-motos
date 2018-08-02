@@ -55,7 +55,6 @@ namespace SM.Application.ViewModels
         public string Des_Senha_Hash { get; set; }
 
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd}")]
-        //[DisplayFormat(ApplyFormatInEditMode = true)]
         [DataType(DataType.Date, ErrorMessage = "Formato inválido.")]
         [DisplayName("Data de Nascimento")]
         public DateTime Dta_Nascimento { get; set; }
@@ -75,8 +74,15 @@ namespace SM.Application.ViewModels
         //public Guid Idf_Imagem { get; set; }
 
         [DisplayName("Imagem")]
-        public string Imagem { get; set; } 
-        
+        public string Imagem { get; set; }
+
+        #endregion
+
+        #region Validation
+
+        [ScaffoldColumn(false)]
+        public DomainValidation.Validation.ValidationResult ValidationResult { get; set; }
+
         #endregion
     }
 }

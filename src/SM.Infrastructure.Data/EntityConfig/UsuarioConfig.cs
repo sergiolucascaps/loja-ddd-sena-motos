@@ -21,6 +21,8 @@ namespace SM.Infrastructure.Data.EntityConfig
                 .IsFixedLength()
                 .HasColumnAnnotation("Index", new IndexAnnotation(new IndexAttribute() { IsUnique = true }));
 
+            Ignore(c => c.ValidationResult);
+
             Property(u => u.Eml_Usuario)
                 .HasMaxLength(150)
                 .IsRequired();

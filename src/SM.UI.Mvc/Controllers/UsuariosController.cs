@@ -67,7 +67,18 @@ namespace SM.UI.Mvc.Controllers
 
                 objUsuarioUsuarioImagemViewModel.Imagem = objUsuarioUsuarioImagemViewModel.Idf_Usuario.ToString();
 
-                _usuarioAppService.Adicionar(objUsuarioUsuarioImagemViewModel);
+                objUsuarioUsuarioImagemViewModel = _usuarioAppService.Adicionar(objUsuarioUsuarioImagemViewModel);
+
+                if (!objUsuarioUsuarioImagemViewModel.ValidationResult.IsValid)
+                {
+                    foreach (var error in objUsuarioUsuarioImagemViewModel.ValidationResult.Erros)
+                    {
+                        ModelState.AddModelError(string.Empty, error.Message);
+                    }
+
+                    return View(objUsuarioUsuarioImagemViewModel);
+                }
+
                 return RedirectToAction("Index");
             }
 

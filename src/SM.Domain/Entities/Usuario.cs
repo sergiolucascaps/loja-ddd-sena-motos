@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DomainValidation.Validation;
+using SM.Domain.Validations.Usuarios;
+using System;
 using System.Collections.Generic;
 
 namespace SM.Domain.Entities
@@ -21,11 +23,18 @@ namespace SM.Domain.Entities
         public DateTime Dta_Nascimento                      { get; set; }
         public DateTime Dta_Cadastro                        { get; set; }
         public DateTime? Dta_Alteracao                      { get; set; }
+        public ValidationResult ValidationResult { get; set; }
 
         public virtual Contato Contato                      { get; set; }
         public virtual UsuarioImagem UsuarioImagem          { get; set; }
         public virtual ICollection<Anuncio> Anuncios        { get; set; }   // Quando o Usuário anuncia algo
         public virtual ICollection<Categoria> Categorias    { get; set; }
         public virtual ICollection<Negociacao> Negociacoes  { get; set; }   // Quando o Usuário está interessado em algo
+
+        public bool IsValid()
+        {
+            ValidationResult = new UsuarioEstaConsistenteValidation().Validate(this);
+            return ValidationResult.IsValid;
+        }
     }
 }

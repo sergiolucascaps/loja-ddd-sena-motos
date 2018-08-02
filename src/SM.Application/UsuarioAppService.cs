@@ -14,7 +14,7 @@ namespace SM.Application
         private readonly IUsuarioService _usuarioService;
 
         public UsuarioAppService(IUsuarioService usuarioService, IUnitOfWork uow)
-            :base(uow)
+            : base(uow)
         {
             _usuarioService = usuarioService;
         }
@@ -26,11 +26,11 @@ namespace SM.Application
 
             objUsuario.UsuarioImagem = objUsuarioImagem;
 
-            _usuarioService.Adicionar(objUsuario);
+            var usuarioReturn = _usuarioService.Adicionar(objUsuario);
+            usuarioUsuarioImagemViewModel = Mapper.Map<Usuario, UsuarioUsuarioImagemViewModel>(usuarioReturn);
 
-            // Verificar se todas as regras de negócio de dominio foram satisfeitas
-            // EX: if(resultado do dominio)
-            Commit();
+            if (usuarioReturn.ValidationResult.IsValid)
+                Commit();
 
             return usuarioUsuarioImagemViewModel;
         }
@@ -42,6 +42,8 @@ namespace SM.Application
 
             objUsuario.UsuarioImagem = objUsuarioImagem;
             _usuarioService.Atualizar(objUsuario);
+
+            Commit();
 
             return usuarioUsuarioImagemViewModel;
         }
@@ -81,6 +83,7 @@ namespace SM.Application
         public void Remover(Guid id)
         {
             _usuarioService.Remover(id);
+            Commit();
         }
     }
 }
