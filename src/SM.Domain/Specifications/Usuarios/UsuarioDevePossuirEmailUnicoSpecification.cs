@@ -16,7 +16,8 @@ namespace SM.Domain.Specifications.Usuarios
 
         public bool IsSatisfiedBy(Usuario usuario)
         {
-            return _usuarioRepository.Buscar(u => u.Eml_Usuario == usuario.Eml_Usuario).Count() == 0;
+            return _usuarioRepository.ObterPorLogin(usuario.Eml_Usuario) == null;
+            //return _usuarioRepository.Buscar(u => u.Eml_Usuario == usuario.Eml_Usuario).Count() == 0;
         }
     }
 }
